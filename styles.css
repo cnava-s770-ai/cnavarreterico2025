@@ -29,9 +29,25 @@ body {
 }
 
 #pageheader .container{
-    background-color: none;
-    min-height: auto;
-    text-align: center;
+min-height: auto;
+}
+#pageheader nav{
+text-align: center;
+}
+#pageheader nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#pageheader nav ul li {
+    border: 2px solid silver;
+    padding: 1rem;
+    background-color: #FFB8CE;
+    margin: 2px;
+    border-radius: 10px;
+}
+#pageheader nav ul li:hover {
+    background-color: #999BCE;
 }
 #media {
     background-color: lightblue;
@@ -95,4 +111,36 @@ audio {
     margin: auto;
     background-color: red;
     border: 5px solid red;
+}
+
+@media screen and (min-width:860px)
+{
+    #pagecontent 
+    {
+        background-color: red;
+    }
+    #career
+    {
+        background-color: blue;
+    }
+    #pageheader nav ul {
+        background-color: none;
+        margin-top: 2rem;
+    }
+    #pageheader nav ul li {
+        display: inline-block;
+    }
+
+}
+@media screen and (min-width:1000px)
+{
+    #pagecontent 
+    {
+        background-color: blue;
+    }
+    #career
+    {
+        background-color: red;
+    }
+
 }

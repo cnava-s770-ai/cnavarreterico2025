@@ -4,19 +4,20 @@ html {
 
 
 body {
-    background-color: red;
+    background-color: darkgray;
 }
 
 .container{
     min-height: 10rem;
     max-width: 75rem;
     margin: auto;
-    background-color: white;
+    background-color: #93B9BC;
     padding: 1rem;
+    color: white;
 }
 
 #pageheader {
-    background-color: coral;
+    background-color: #563271;
     min-height: 10rem;
     padding: 1rem;
 }
@@ -44,7 +45,7 @@ text-align: center;
 #pageheader nav ul li {
     border: 2px solid silver;
     padding: 1rem;
-    background-color: #FFB8CE;
+    background-color: #759496;
     margin: 2px;
     border-radius: 10px;
 }
@@ -55,7 +56,7 @@ text-align: center;
     background-color: lightblue;
     min-height: 10rem;
     padding: 1rem;
-    background-image: url(PortfolioImages/HeroImagePage.png);
+    background-image: url(PortfolioImages/HeroImages002.png);
     background-size: cover;
     aspect-ratio: 16 / 9;
 }
@@ -65,7 +66,7 @@ text-align: center;
     padding: 1rem;
 }
 #pagecontent {
-    background-color: darkorange;
+    background-color: darkred;
     min-height: 10rem;
     padding: 1rem;
 }
@@ -123,7 +124,7 @@ audio {
     }
     #career
     {
-        background-color: blue;
+        background-color: #17A190;
     }
     #pageheader nav ul {
         background-color: none;
@@ -142,7 +143,7 @@ audio {
     }
     #career
     {
-        background-color: red;
+        background-color: #17A190;
     }
 
 }

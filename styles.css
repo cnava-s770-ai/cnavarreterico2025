@@ -1,7 +1,20 @@
+/* Mobile View - Default */
+
+/* A chance for a new look but temporaly orefer OG 
+ :root{
+    --primary-color: red;
+    --secondary-color: green;
+    --tertiary-color: #93B9BC;
+    --main-font: arial;
+}
+
+link{
+    color: white;
+} */
+
 html {
     scroll-behavior: smooth;
 }
-
 
 body {
     background-color: darkgray;
@@ -11,13 +24,13 @@ body {
     min-height: 10rem;
     max-width: 75rem;
     margin: auto;
-    background-color: #93B9BC;
+    background-color: none;
     padding: 1rem;
     color: white;
 }
 
 #pageheader {
-    background-color: #563271;
+    background-color: var(--secondary-color);
     min-height: 10rem;
     padding: 1rem;
 }
@@ -103,7 +116,7 @@ text-align: center;
     min-height: auto;
 }
 #subfooter {
-    background-color: lightpink;
+    background-color: var(--primary-color);
     min-height: 10rem;
     padding: 1rem;
     text-align: center;
@@ -115,8 +128,8 @@ audio {
     background-color: red;
     border: 5px solid red;
 }
-
-@media screen and (min-width:860px)
+/* Tablet View */
+@media screen and (min-width:600px)
 {
     #pagecontent 
     {
@@ -135,6 +148,7 @@ audio {
     }
 
 }
+/* Desktop View */
 @media screen and (min-width:1000px)
 {
     #pagecontent 

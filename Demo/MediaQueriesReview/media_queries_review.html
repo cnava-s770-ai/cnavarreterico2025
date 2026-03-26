@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        /* Mobil First */
+        body{
+            background-color: darkred;
+        }
+
+        h1, h2{
+            color: white;
+            text-align: center;
+        }
+
+        /* Table and Desktop Design */
+        @media screen and (min-width:700px) 
+        {
+            body{
+                background-color: steelblue;
+            }
+            h1, h2{
+                color: white;
+            }
+        }
+
+        @media screen and (min-width:960px) 
+            {
+                body{
+                    background-color: purple;
+                }
+                h1, h2{
+                    color: white;
+                }
+        }
+
+        @media screen and (min-width:1280px) 
+        {
+            body{
+                background-color: white;
+            }
+            h1, h2{
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Media Queries</h1>
+    <h2>Cesar Navarrete Rico</h2>
+
+</body>
+</html>
